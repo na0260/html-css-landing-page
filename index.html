@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Landing Page</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -23,56 +24,160 @@
     </nav>
     <section class="hero">
         <div class="hero-content">
-            <h1>We Design and Develop</h1>
-            <p>
-                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <a href="#" class="btn">Contact Us</a>
+            <div class="row">
+                <div class="col-6 fleft">
+                    <h1>We Design and Develop</h1>
+                    <p>
+                        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <a href="#" class="btn">Contact Us</a>
+                </div>
+            </div>
         </div>
     </section>
 </header>
 
 
 <section class="about">
-    <div class="about-content">
-        <h2>About Us</h2>
-        <p class="about-text">
-            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <div class="signature">
-            <img src="assets/images/sign.jpg" alt="Signature">
+    <div class="about-content row">
+        <div class="col-12">
+            <h2>About Us</h2>
+            <p class="about-text">
+                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="signature">
+                <img src="assets/images/sign.jpg" alt="Signature">
+            </div>
         </div>
     </div>
 </section>
 
 <section class="skills">
-    <div class="skills-content">
-        <h2>Professional Skills</h2>
-        <div class="skill">
-            <p>UI/UX Design</p>
-            <div class="progress">
-                <div class="progress-bar" style="width: 75%;"></div>
+    <div class="row skills-content">
+        <div class="col-6 skills-bar">
+            <h2>Professional Skills</h2>
+            <div class="skill">
+                <p>UI/UX Design</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Web Development</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Marketing</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 65%;"></div>
+                </div>
             </div>
         </div>
-        <div class="skill">
-            <p>Web Development</p>
-            <div class="progress">
-                <div class="progress-bar" style="width: 95%;"></div>
-            </div>
+        <div class="col-6 skills-img">
+            <img src="assets/images/skills-img.webp" alt="Skills">
         </div>
-        <div class="skill">
-            <p>Marketing</p>
-            <div class="progress">
-                <div class="progress-bar" style="width: 65%;"></div>
-            </div>
-        </div>
-    </div>
-    <div class="skills-img">
-        <img src="assets/images/skills-img.webp" alt="Skills">
     </div>
 </section>
+
+<section class="stats-section">
+    <div class="row">
+        <div class="col-3">
+            <div class="stat-item">
+                <div class="icon">
+                    <img src="assets/images/briefcase.svg" alt="Projects Completed">
+                </div>
+                <div>
+                    <div class="stat-number">548</div>
+                    <div class="stat-label">PROJECTS COMPLETED</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="stat-item">
+                <div class="icon">
+                    <img src="assets/images/time.svg" alt="Working Hours">
+                </div>
+                <div>
+                    <div class="stat-number">1465</div>
+                    <div class="stat-label">WORKING HOURS</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="stat-item">
+                <div class="icon">
+                    <img src="assets/images/star.svg" alt="Positive Feedbacks">
+                </div>
+                <div>
+                    <div class="stat-number">612</div>
+                    <div class="stat-label">POSITIVE FEEDBACKS</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="stat-item">
+                <div class="icon">
+                    <img src="assets/images/love.svg" alt="Happy Clients">
+                </div>
+                <div>
+                    <div class="stat-number">735</div>
+                    <div class="stat-label">HAPPY CLIENTS</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="work">
+    <h2>Our Work</h2>
+    <div class="work-grid">
+        <div class="work-item"></div>
+        <div class="work-item"></div>
+        <div class="work-item"></div>
+        <div class="work-item"></div>
+        <div class="work-item"></div>
+        <div class="work-item"></div>
+    </div>
+</section>
+
+
+
+<section class="process">
+    <h2>Our Work Process</h2>
+    <div class="process-grid">
+        <div class="process-item">UI/UX Design</div>
+        <div class="process-item">Web Development</div>
+        <div class="process-item">App/Mobile</div>
+        <div class="process-item">Graphic Design</div>
+        <div class="process-item">SEO / Marketing</div>
+        <div class="process-item">Photography</div>
+        <div class="process-item">Graphic Design</div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <blockquote>"Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to the next one ASAP."</blockquote>
+</section>
+
+<section class="contact">
+    <h2>Need a Project?</h2>
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <input type="text" placeholder="Your Title">
+        <textarea placeholder="Your Comment"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2024 Prol Design, Inc. All rights reserved. Designed by ProlStudios.</p>
+</footer>
 </body>
 </html>
