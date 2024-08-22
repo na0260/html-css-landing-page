@@ -1,0 +1,120 @@
+:root{
+    --primary-color: #10c9c3;
+    --black-color: #333;
+    --grey-color: #838383;
+    --smoke-color: #f5f5f5;
+    --white-color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    color: var(--black-color);
+    background-color: var(--white-color);
+    line-height: 1.6;
+}
+
+header {
+    background: url("../images/hero.jpg") no-repeat center center/cover;
+    padding: 20px 0;
+}
+.logo{
+    height: 64px;
+    width: 64px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: var(--black-color);
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+    color: var(--primary-color);
+}
+
+.hero {
+    padding: 250px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--black-color);
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 16px;
+    color: var(--black-color);
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 120px 20px 80px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .btn {
+        padding: 12px 25px;
+        font-size: 12px;
+    }
+
+}
