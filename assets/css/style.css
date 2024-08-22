@@ -111,7 +111,7 @@ header {
     font-size: 16px;
     max-width: 700px;
     margin: 0 auto;
-    color: #777;
+    color: var(--black-color);
     line-height: 1.8;
 }
 
@@ -119,4 +119,52 @@ header {
     width: 100%;
     margin-top: 40px;
 }
+
+
+.skills {
+    display: flex;
+    width: 100%;
+}
+
+.skills-content{
+    width: 50%;
+    padding: 150px 100px;
+    background-color: var(--smoke-color);
+}
+.skills-img{
+    width: 50%;
+}
+.skills-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.skills h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.progress {
+    background-color: var(--grey-color);
+    border-radius: 50px;
+    height: 8px;
+    width: 100%;
+}
+
+.progress-bar {
+    background-color: var(--primary-color);
+    height: 8px;
+    border-radius: 50px;
+}
+
 
