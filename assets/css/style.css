@@ -239,6 +239,10 @@ header {
     color: var(--white-color);
 }
 
+.stats-section .col-3 {
+    padding: 40px;
+}
+
 .stat-item {
     display: flex;
     align-items: center;
@@ -544,6 +548,10 @@ header {
 /* Responsive Styles */
 
 @media (max-width: 1200px) {
+    .nav ul {
+        display: none;
+    }
+
     .fleft {
         width: 100% !important;
         float: left;
@@ -565,9 +573,11 @@ header {
     .work .col-3 {
         width: 33.33%;
     }
-    .service .col-3{
+
+    .service .col-3 {
         width: 33.33%;
     }
+
     .partner .col-2 {
         width: 25%;
     }
@@ -622,7 +632,7 @@ header {
         width: 50%;
     }
 
-    .service .col-3{
+    .service .col-3 {
         width: 50%;
     }
 
