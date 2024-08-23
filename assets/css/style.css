@@ -565,7 +565,9 @@ header {
     .work .col-3 {
         width: 33.33%;
     }
-
+    .service .col-3{
+        width: 33.33%;
+    }
     .partner .col-2 {
         width: 25%;
     }
@@ -617,6 +619,10 @@ header {
     }
 
     .work .col-3 {
+        width: 50%;
+    }
+
+    .service .col-3{
         width: 50%;
     }
 
