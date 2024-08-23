@@ -581,6 +581,10 @@ header {
     .partner .col-2 {
         width: 25%;
     }
+
+    .footer-right {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -644,21 +648,10 @@ header {
         width: 33.33%;
     }
 
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
+    .footer-right, .footer-center {
+        display: none;
     }
 
-    .footer-left, .footer-center, .footer-right {
-        flex: none;
-        width: 100%;
-        text-align: center;
-    }
-
-    .footer-right ul {
-        display: inline-block;
-        margin: 0 10px;
-    }
 }
 
 @media (max-width: 576px) {
@@ -693,13 +686,8 @@ header {
         font-size: 26px;
     }
 
-    .footer-right ul {
-        display: block;
-        margin: 0;
+    .footer-right, .footer-center {
+        display: none;
     }
 
-    .footer-right ul li {
-        display: inline-block;
-        margin: 0 10px;
-    }
 }
