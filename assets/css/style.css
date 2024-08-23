@@ -686,6 +686,9 @@ header {
         font-size: 26px;
     }
 
+    .service .col-3 {
+        width: 100%;
+    }
     .footer-right, .footer-center {
         display: none;
     }
