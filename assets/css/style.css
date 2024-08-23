@@ -337,13 +337,16 @@ header {
 
 .contact {
     padding: 80px 20px;
-    background-color: #f4f4f4;
+    background-color: var(--smoke-color);
     text-align: center;
 }
 
 .contact h2 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+.contact p{
+    margin-bottom: 30px;
 }
 
 .contact form {
@@ -351,6 +354,13 @@ header {
     margin: 0 auto;
     display: grid;
     gap: 20px;
+    border: none;
+    text-align: center;
+
+}
+.contact form .input-group{
+    display: flex;
+    gap: 25px;
 }
 
 .contact input, .contact textarea {
@@ -367,8 +377,8 @@ header {
 }
 
 .contact button {
-    background-color: #2DC5FA;
-    color: #ffffff;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     padding: 15px;
     border: none;
     border-radius: 5px;
@@ -376,10 +386,11 @@ header {
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s;
+    width: 30%;
 }
 
-.contact button:hover {
-    background-color: #1aa3d3;
+.contact .button-container {
+    text-align: center;
 }
 
 .footer {
