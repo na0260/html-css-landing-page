@@ -392,6 +392,16 @@ header {
 .contact .button-container {
     text-align: center;
 }
+.partner{
+    padding: 50px;
+}
+.partner .col-2{
+    text-align: center;
+    padding: 30px;
+}
+.partner .col-2 img{
+    width: 70px;
+}
 
 .footer {
     background-color: #111;
@@ -466,6 +476,9 @@ header {
     .work .col-3{
         width: 33.33%;
     }
+    .partner .col-2{
+        width: 25%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -513,6 +526,9 @@ header {
 
     .process .col-12{
         padding: 50px;
+    }
+    .partner .col-2{
+        width: 33.33%;
     }
 }
 
